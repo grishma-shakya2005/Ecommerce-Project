@@ -96,10 +96,6 @@ Palpali brand colors:
 - **Secondary**: #D2691E (Chocolate)
 - **Accent**: #F4A460 (Sandy)
 
-## Google Stitch Integration
-
-MCP server configured at `.vscode/mcp.json` for Google Stitch design integration.
-
 ## License
 
 MIT © Palpali
