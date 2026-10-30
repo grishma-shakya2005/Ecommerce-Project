@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 font-sans;
+}
+
+/* Palpali brand colors */
+:root {
+  --color-primary: #8B4513;
+  --color-secondary: #D2691E;
+  --color-accent: #F4A460;
+}
+
+.btn-primary {
+  @apply px-6 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all duration-200 font-medium;
+}
+
+.btn-secondary {
+  @apply px-6 py-2 bg-secondary text-white rounded-lg hover:bg-opacity-90 transition-all duration-200 font-medium;
+}
+
+.btn-outline {
+  @apply px-6 py-2 border-2 border-primary text-primary rounded-lg hover:bg-primary hover:text-white transition-all duration-200 font-medium;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200;
+}
+
+.input-base {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+}
